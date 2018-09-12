@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hss-EurekaServer" />
         <module name="hss-server" />
+        <module name="hss-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hss-server" target="1.8" />
-      <module name="hss-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
