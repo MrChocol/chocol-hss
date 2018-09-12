@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.chenli</groupId>
-    <artifactId>hss-server</artifactId>
+    <artifactId>hss-EurekaServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>hss-server</name>
-    <description>Home smart security project of user</description>
+    <name>hss-EurekaServer</name>
+    <description>Home smart security project of EurekaServer</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

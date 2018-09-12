@@ -19,7 +19,7 @@
     </parent>
 
     <modules>
-        <module>hss-server</module>
+        <module>hss-EurekaServer</module>
         <!--<module>service-hi</module>-->
     </modules>
 
