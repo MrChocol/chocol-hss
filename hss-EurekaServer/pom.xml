@@ -6,7 +6,7 @@
     <groupId>com.chenli</groupId>
     <artifactId>hss-EurekaServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>webapp</packaging>
 
     <name>hss-EurekaServer</name>
     <description>Home smart security project of EurekaServer</description>

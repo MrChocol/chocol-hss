@@ -1,11 +1,11 @@
 package com.chenli.hssuser.Model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import com.chenli.hssEurekaServer.model.BaseModel;
 
-public class User {
+import java.util.ArrayList;
+import java.util.List;
+
+public class User extends BaseModel {
     private String id;
     private String username;
     private String password;
@@ -33,14 +33,6 @@ public class User {
 //        }
 //        return list;
 //    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;
