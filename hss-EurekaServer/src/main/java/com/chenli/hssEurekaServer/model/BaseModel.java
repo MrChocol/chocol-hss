@@ -1,27 +1,13 @@
 package com.chenli.hssEurekaServer.model;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
 public class BaseModel {
-    protected Long id;
-    protected String name;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    @Getter@Setter protected Long id;
+    @Getter@Setter protected String name;
 
     @Override
     public String toString() {

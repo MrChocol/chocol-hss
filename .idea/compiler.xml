@@ -7,12 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hss-EurekaServer" />
+        <module name="hss-family" />
         <module name="hss-server" />
         <module name="hss-user" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hss-server" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
